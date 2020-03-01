@@ -1,4 +1,4 @@
-PHP string manipulation functions for highly recurrent use cases.
+PHP string manipulation functions for highly recurrent tasks.
 
 .. contents:: :local:
 
