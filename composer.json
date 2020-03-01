@@ -17,7 +17,7 @@
   },
   "autoload": {
     "files": [
-      "lib/functions.php"
+      "lib/autoload.php"
     ]
   }
 }

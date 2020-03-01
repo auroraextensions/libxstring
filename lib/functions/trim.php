@@ -1,6 +1,6 @@
 <?php
 /**
- * functions.php
+ * trim.php
  *
  * NOTICE OF LICENSE
  *
@@ -19,7 +19,7 @@ if (!function_exists('bstrim')) {
      * @param string $str
      * @return string
      */
-    function bstrim(string $str) {
+    function bstrim(string $str): string {
         return trim($str, '\\');
     }
 }
@@ -29,7 +29,7 @@ if (!function_exists('lbstrim')) {
      * @param string $str
      * @return string
      */
-    function lbstrim(string $str) {
+    function lbstrim(string $str): string {
         return ltrim($str, '\\');
     }
 }
@@ -39,7 +39,7 @@ if (!function_exists('rbstrim')) {
      * @param string $str
      * @return string
      */
-    function rbstrim(string $str) {
+    function rbstrim(string $str): string {
         return rtrim($str, '\\');
     }
 }
@@ -49,7 +49,7 @@ if (!function_exists('fstrim')) {
      * @param string $str
      * @return string
      */
-    function fstrim(string $str) {
+    function fstrim(string $str): string {
         return trim($str, '/');
     }
 }
@@ -59,7 +59,7 @@ if (!function_exists('lfstrim')) {
      * @param string $str
      * @return string
      */
-    function lfstrim(string $str) {
+    function lfstrim(string $str): string {
         return ltrim($str, '/');
     }
 }
@@ -69,7 +69,7 @@ if (!function_exists('rfstrim')) {
      * @param string $str
      * @return string
      */
-    function rfstrim(string $str) {
+    function rfstrim(string $str): string {
         return rtrim($str, '/');
     }
 }
