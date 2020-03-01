@@ -26,6 +26,8 @@ Functions
 .. |rfstrim| replace:: ``rfstrim``
 .. |bsexplode| replace:: ``bsexplode``
 .. |fsexplode| replace:: ``fsexplode``
+.. |bsimplode| replace:: ``bsimplode``
+.. |fsimplode| replace:: ``fsimplode``
 .. _bstrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L22-L24
 .. _lbstrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L32-L34
 .. _rbstrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L42-L44
@@ -34,6 +36,8 @@ Functions
 .. _rfstrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L72-L74
 .. _bsexplode: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/explode.php#L23-L28
 .. _fsexplode: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/explode.php#L37-L42
+.. _bsimplode: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/implode.php#L22-L24
+.. _fsimplode: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/implode.php#L32-L34
 
 trim()
 ^^^^^^
@@ -50,3 +54,9 @@ explode()
 
 * |bsexplode|_ Split a string by backslash.
 * |fsexplode|_ Split a string by forward slash.
+
+implode()
+^^^^^^^^^
+
+* |bsimplode|_ Join array elements with backslash.
+* |fsimplode|_ Join array elements with forward slash.
