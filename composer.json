@@ -1,6 +1,6 @@
 {
   "name": "auroraextensions/libxstring",
-  "description": "PHP string manipulation functions for highly frequent use cases.",
+  "description": "PHP string manipulation functions for highly recurrent use cases.",
   "type": "library",
   "license": "MIT",
   "authors": [

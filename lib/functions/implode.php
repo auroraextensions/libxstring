@@ -33,3 +33,23 @@ if (!function_exists('fsimplode')) {
         return implode('/', $pieces);
     }
 }
+
+if (!function_exists('hyimplode')) {
+    /**
+     * @param array $pieces
+     * @return string
+     */
+    function hyimplode(array $pieces): string {
+        return implode('-', $pieces);
+    }
+}
+
+if (!function_exists('usimplode')) {
+    /**
+     * @param array $pieces
+     * @return string
+     */
+    function usimplode(array $pieces): string {
+        return implode('_', $pieces);
+    }
+}
