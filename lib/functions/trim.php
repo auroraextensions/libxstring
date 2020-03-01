@@ -73,3 +73,63 @@ if (!function_exists('rfstrim')) {
         return rtrim($str, '/');
     }
 }
+
+if (!function_exists('hytrim')) {
+    /**
+     * @param string $str
+     * @return string
+     */
+    function hytrim(string $str): string {
+        return trim($str, '-');
+    }
+}
+
+if (!function_exists('lhytrim')) {
+    /**
+     * @param string $str
+     * @return string
+     */
+    function lhytrim(string $str): string {
+        return ltrim($str, '-');
+    }
+}
+
+if (!function_exists('rhytrim')) {
+    /**
+     * @param string $str
+     * @return string
+     */
+    function rhytrim(string $str): string {
+        return rtrim($str, '-');
+    }
+}
+
+if (!function_exists('ustrim')) {
+    /**
+     * @param string $str
+     * @return string
+     */
+    function ustrim(string $str): string {
+        return trim($str, '_');
+    }
+}
+
+if (!function_exists('lustrim')) {
+    /**
+     * @param string $str
+     * @return string
+     */
+    function lustrim(string $str): string {
+        return ltrim($str, '_');
+    }
+}
+
+if (!function_exists('rustrim')) {
+    /**
+     * @param string $str
+     * @return string
+     */
+    function rustrim(string $str): string {
+        return rtrim($str, '_');
+    }
+}

@@ -41,3 +41,31 @@ if (!function_exists('fsexplode')) {
         return explode('/', $str, $limit);
     }
 }
+
+if (!function_exists('hyexplode')) {
+    /**
+     * @param string $str
+     * @param int $limit
+     * @return array
+     */
+    function hyexplode(
+        string $str,
+        int $limit = PHP_INT_MAX
+    ): array {
+        return explode('-', $str, $limit);
+    }
+}
+
+if (!function_exists('usexplode')) {
+    /**
+     * @param string $str
+     * @param int $limit
+     * @return array
+     */
+    function usexplode(
+        string $str,
+        int $limit = PHP_INT_MAX
+    ): array {
+        return explode('_', $str, $limit);
+    }
+}
