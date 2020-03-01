@@ -1,0 +1,23 @@
+{
+  "name": "auroraextensions/libxstring",
+  "description": "PHP string manipulation functions for highly frequent use cases.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nickolas Burr",
+      "email": "nickolasburr@auroraextensions.com"
+    }
+  ],
+  "support": {
+    "email": "support@auroraextensions.com"
+  },
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "files": [
+      "lib/functions.php"
+    ]
+  }
+}
