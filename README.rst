@@ -18,7 +18,10 @@ Installation
 Functions
 ---------
 
-* ``bstrim``
+.. |bstrim| replace:: ``bstrim``
+.. _bstrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L17
+
+* |bstrim|_
 * ``lbstrim``
 * ``rbstrim``
 * ``fstrim``
