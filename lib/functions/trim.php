@@ -1,6 +1,6 @@
 <?php
 /**
- * functions.php
+ * trim.php
  *
  * NOTICE OF LICENSE
  *
@@ -13,8 +13,6 @@
  * @copyright     Copyright (C) 2020 Aurora Extensions <support@auroraextensions.com>
  * @license       MIT License
  */
-
-/** trim() functions. */
 
 if (!function_exists('bstrim')) {
     /**
@@ -73,35 +71,5 @@ if (!function_exists('rfstrim')) {
      */
     function rfstrim(string $str): string {
         return rtrim($str, '/');
-    }
-}
-
-/** explode() functions. */
-
-if (!function_exists('bsexplode')) {
-    /**
-     * @param string $str
-     * @param int $limit
-     * @return array
-     */
-    function bsexplode(
-        string $str,
-        int $limit = PHP_INT_MAX
-    ): array {
-        return explode('\\', $str, $limit);
-    }
-}
-
-if (!function_exists('fsexplode')) {
-    /**
-     * @param string $str
-     * @param int $limit
-     * @return array
-     */
-    function fsexplode(
-        string $str,
-        int $limit = PHP_INT_MAX
-    ): array {
-        return explode('/', $str, $limit);
     }
 }
