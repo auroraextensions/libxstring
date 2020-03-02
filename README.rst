@@ -79,15 +79,7 @@ implode()
 trim()
 ^^^^^^
 
-* |bstrim|_ Strip backslashes from the beginning and end of a string.
-* |lbstrim|_ Strip backslashes from the beginning of a string.
-* |rbstrim|_ Strip backslashes from the end of a string.
-* |fstrim|_ Strip forward slashes from the beginning and end of a string.
-* |lfstrim|_ Strip forward slashes from the beginning of a string.
-* |rfstrim|_ Strip forward slashes from the end of a string.
-* |hytrim|_ Strip hyphens from the beginning and end of a string.
-* |lhytrim|_ Strip hyphens from the beginning of a string.
-* |rhytrim|_ Strip hyphens from the end of a string.
-* |ustrim|_ Strip underscores from the beginning and end of a string.
-* |lustrim|_ Strip underscores from the beginning of a string.
-* |rustrim|_ Strip underscores from the end of a string.
+* |bstrim|_, |lbstrim|_, |rbstrim|_ Strip backslashes from string.
+* |fstrim|_, |lfstrim|_, |rfstrim|_ Strip forward slashes from string.
+* |hytrim|_, |lhytrim|_ |rhytrim|_ Strip hyphens from string.
+* |ustrim|_, |lustrim|_, |rustrim|_ Strip underscores from string.
