@@ -27,17 +27,17 @@ Functions
 .. |hyimplode| replace:: ``hyimplode``
 .. |usimplode| replace:: ``usimplode``
 .. |bstrim| replace:: ``bstrim``
-.. |lbstrim| replace:: ``lbstrim``
-.. |rbstrim| replace:: ``rbstrim``
+.. |bsltrim| replace:: ``bsltrim``
+.. |bsrtrim| replace:: ``bsrtrim``
 .. |fstrim| replace:: ``fstrim``
-.. |lfstrim| replace:: ``lfstrim``
-.. |rfstrim| replace:: ``rfstrim``
+.. |fsltrim| replace:: ``fsltrim``
+.. |fsrtrim| replace:: ``fsrtrim``
 .. |hytrim| replace:: ``hytrim``
-.. |lhytrim| replace:: ``lhytrim``
-.. |rhytrim| replace:: ``rhytrim``
+.. |hyltrim| replace:: ``hyltrim``
+.. |hyrtrim| replace:: ``hyrtrim``
 .. |ustrim| replace:: ``ustrim``
-.. |lustrim| replace:: ``lustrim``
-.. |rustrim| replace:: ``rustrim``
+.. |usltrim| replace:: ``usltrim``
+.. |usrtrim| replace:: ``usrtrim``
 
 .. _bsexplode: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/explode.php#L23-L28
 .. _fsexplode: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/explode.php#L37-L42
@@ -48,17 +48,17 @@ Functions
 .. _hyimplode: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/implode.php#L42-L44
 .. _usimplode: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/implode.php#L52-L54
 .. _bstrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L22-L24
-.. _lbstrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L32-L34
-.. _rbstrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L42-L44
+.. _bsltrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L32-L34
+.. _bsrtrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L42-L44
 .. _fstrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L52-L54
-.. _lfstrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L62-L64
-.. _rfstrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L72-L74
+.. _fsltrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L62-L64
+.. _fsrtrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L72-L74
 .. _hytrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L82-L84
-.. _lhytrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L92-L94
-.. _rhytrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L102-L104
+.. _hyltrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L92-L94
+.. _hyrtrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L102-L104
 .. _ustrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L112-L114
-.. _lustrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L122-L124
-.. _rustrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L132-L134
+.. _usltrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L122-L124
+.. _usrtrim: https://github.com/auroraextensions/libxstring/blob/master/lib/functions/trim.php#L132-L134
 
 explode()
 ^^^^^^^^^
@@ -79,7 +79,7 @@ implode()
 trim()
 ^^^^^^
 
-* |bstrim|_, |lbstrim|_, |rbstrim|_ Strip backslashes from string.
-* |fstrim|_, |lfstrim|_, |rfstrim|_ Strip forward slashes from string.
-* |hytrim|_, |lhytrim|_ |rhytrim|_ Strip hyphens from string.
-* |ustrim|_, |lustrim|_, |rustrim|_ Strip underscores from string.
+* |bstrim|_, |bsltrim|_, |bsrtrim|_ Strip backslashes from string.
+* |fstrim|_, |fsltrim|_, |fsrtrim|_ Strip forward slashes from string.
+* |hytrim|_, |hyltrim|_ |hyrtrim|_ Strip hyphens from string.
+* |ustrim|_, |usltrim|_, |usrtrim|_ Strip underscores from string.

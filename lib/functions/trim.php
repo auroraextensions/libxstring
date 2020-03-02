@@ -24,22 +24,22 @@ if (!function_exists('bstrim')) {
     }
 }
 
-if (!function_exists('lbstrim')) {
+if (!function_exists('bsltrim')) {
     /**
      * @param string $str
      * @return string
      */
-    function lbstrim(string $str): string {
+    function bsltrim(string $str): string {
         return ltrim($str, '\\');
     }
 }
 
-if (!function_exists('rbstrim')) {
+if (!function_exists('bsrtrim')) {
     /**
      * @param string $str
      * @return string
      */
-    function rbstrim(string $str): string {
+    function bsrtrim(string $str): string {
         return rtrim($str, '\\');
     }
 }
@@ -54,22 +54,22 @@ if (!function_exists('fstrim')) {
     }
 }
 
-if (!function_exists('lfstrim')) {
+if (!function_exists('fsltrim')) {
     /**
      * @param string $str
      * @return string
      */
-    function lfstrim(string $str): string {
+    function fsltrim(string $str): string {
         return ltrim($str, '/');
     }
 }
 
-if (!function_exists('rfstrim')) {
+if (!function_exists('fsrtrim')) {
     /**
      * @param string $str
      * @return string
      */
-    function rfstrim(string $str): string {
+    function fsrtrim(string $str): string {
         return rtrim($str, '/');
     }
 }
@@ -84,22 +84,22 @@ if (!function_exists('hytrim')) {
     }
 }
 
-if (!function_exists('lhytrim')) {
+if (!function_exists('hyltrim')) {
     /**
      * @param string $str
      * @return string
      */
-    function lhytrim(string $str): string {
+    function hyltrim(string $str): string {
         return ltrim($str, '-');
     }
 }
 
-if (!function_exists('rhytrim')) {
+if (!function_exists('hyrtrim')) {
     /**
      * @param string $str
      * @return string
      */
-    function rhytrim(string $str): string {
+    function hyrtrim(string $str): string {
         return rtrim($str, '-');
     }
 }
@@ -114,22 +114,22 @@ if (!function_exists('ustrim')) {
     }
 }
 
-if (!function_exists('lustrim')) {
+if (!function_exists('usltrim')) {
     /**
      * @param string $str
      * @return string
      */
-    function lustrim(string $str): string {
+    function usltrim(string $str): string {
         return ltrim($str, '_');
     }
 }
 
-if (!function_exists('rustrim')) {
+if (!function_exists('usrtrim')) {
     /**
      * @param string $str
      * @return string
      */
-    function rustrim(string $str): string {
+    function usrtrim(string $str): string {
         return rtrim($str, '_');
     }
 }
